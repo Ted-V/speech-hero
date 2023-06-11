@@ -9,3 +9,5 @@ Use it to practice:
 - Songs
 - Poems
 - And more!
+
+6/11/2023: Works in Chrome, not FireFox.
