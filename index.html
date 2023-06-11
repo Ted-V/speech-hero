@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Hero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div id="mainContent">
+        <header>Speech Hero🎤</header>
+        <div id="about"><strong>About:</strong> Speech Hero is a speech memorization tool. See how
+            well you can recite a text from memory. To begin, enter a speech you would like to test yourself on and
+            click "Start New Recording".</div>
+        <div id="outputContainer">
+            <h1>Recording</h1>
+            <textarea id="output" placeholder="Your recorded performance will appear here..."></textarea>
+            <button id="recordBtn">Start New Recording</button>
+        </div>
+        <div id="statsContainer">
+            <h1 id="matchPercentage">100% Match</h1>
+            <button id="compare">Compare</button>
+        </div>
+        <div id="scriptContainer">
+            <h1>Script</h1>
+            <textarea type="text" id="script" placeholder="Enter your speech here..."></textarea>
+            <div id="scriptButtons">
+                <button id="hideBtn">Hide Script</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+        <footer><a href=""></a></footer>
+    </div>
+
+</body>
+
+</html>
